@@ -1,0 +1,14 @@
+npm install --save bootstrap
+npm install --save react-router-dom
+npm install --save styled-components (For styling)
+
+For details and example please visite this site (https://www.styled-components.com/)
+
+import styled from 'styled-components';
+
+const ButtonContainer = styled.button`  (we can reuse this component (ButtonContainer) )
+ text-transform: capitalize;
+`
+
+ButtonContainer -- this is variable
+.button -- this is tag where u want to apply and write css
