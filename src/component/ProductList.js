@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Title from './Title';
 import Product from './Product';
 import { ProductConsumer } from '../context';
-import PropTypes from 'prop-types';
+
 
 export default class ProductList extends Component {
     render() {
@@ -27,9 +27,4 @@ export default class ProductList extends Component {
             </React.Fragment>
         )
     }
-}
-
-ProductList.propTypes = {
-    value: PropTypes.string.isRequired,
-    value: PropTypes.number.isRequired
 }
